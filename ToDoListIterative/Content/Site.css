@@ -1,0 +1,77 @@
+﻿html {
+    background: url(Images/blur-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*//max-width: 280px;*/
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+footer, .header {
+    color: #708090;
+    text-align: center;
+}
+
+.loading {
+    margin-top: 40px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    font-size: 1.4em;
+    padding: 15px;
+    background: #d2dbda;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-bottom: solid #bbc4c3 1px;
+}
+
+.ok-true {
+    text-decoration: line-through;
+    color: #708090;
+}
+
+li input[type="checkbox"] {
+    width: 40px;
+}
+.titulo {
+  font-family: vast-shadow, sans-serif;
+  font-size: 3em;
+}
+.center {
+    text-align: center;
+    align-content: center;
+}
+.m10 {
+    margin: 10px;
+}

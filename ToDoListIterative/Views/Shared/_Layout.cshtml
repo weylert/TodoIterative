@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="TodoList">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <script src="//use.edgefonts.net/vast-shadow:n4:all.js"></script>
+    <script src="//use.edgefonts.net/vast-shadow:n4:all;megrim.js"></script>
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container whiteBack">
+    
+    @RenderBody()
+    <footer>
+        <hr/>
+        <p><small>&copy; desenvolvido para Iterative.com.br</small>
+        </p>
+    </footer>
+</div>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/app.js"></script>
+    <script src="~/Scripts/todolist-controller.js"></script>
+</body>
+</html>
